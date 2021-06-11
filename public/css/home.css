@@ -1,0 +1,74 @@
+.home header p{
+    font-size: 14px;
+    display: inline-block;
+}
+.home header ul{
+    list-style-type: none;
+}
+.home header a{
+    text-decoration: none;
+}
+
+.burger-menu{
+    display: inline-block;
+    font-size: 25px;
+    background-color: var(--color-celeste);
+    color: var(--color-grisClaro);
+    padding: 2px 6px;
+    margin: 10px 0px 30px 130px;
+}
+
+.home{
+    background-color: var(--color-amarillo);
+    font-family: "Roboto";
+}
+
+.home main h3{
+    font-size: 24px;
+}
+
+.home main h4,span{
+font-size: 16px;
+}
+
+.home main p{
+    font-size: 18px;
+}
+
+.home .banner{
+    height: 65px;
+}
+
+.home footer{
+    color: var(--color-grisOscuro);
+    text-align: center;
+    background-color: var(--color-grisClaro);
+}
+
+.home footer h4{
+    margin-bottom: 0px;
+}
+.home footer p{
+    margin-top: 0px;
+}
+.home footer section{
+    margin: 40px;
+}
+
+.fa-credit-card{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fa-gift{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.fa-user-shield{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+    
