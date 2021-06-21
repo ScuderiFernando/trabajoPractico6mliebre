@@ -1,7 +1,32 @@
+.home{
+    font-family: "Roboto";
+    background-color: var(--color-grisClaro);
+}
+
+/*Header*/
+
+.home header{
+    background-color: var(--color-amarillo);
+    padding-bottom: 10px;
+}
+
+.home header img{
+    height: 70px;
+    display: block;
+margin: 10px auto 10px;
+}
+
+.home header .busqueda{
+    text-align: center;
+}
+
 .home header p{
+    text-align: center;
     font-size: 14px;
     display: inline-block;
+    margin: 5px 5px;
 }
+
 .home header ul{
     list-style-type: none;
 }
@@ -9,19 +34,19 @@
     text-decoration: none;
 }
 
-.burger-menu{
-    display: inline-block;
-    font-size: 25px;
+.home .burgerMenu{
+    display: block;
+    font-size: 20px;
     background-color: var(--color-celeste);
     color: var(--color-grisClaro);
-    padding: 2px 6px;
-    margin: 10px 0px 30px 130px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin: 20px auto;
+    border: none;
 }
 
-.home{
-    background-color: var(--color-amarillo);
-    font-family: "Roboto";
-}
+
+/* Main */
 
 .home main h3{
     font-size: 24px;
@@ -37,12 +62,15 @@ font-size: 16px;
 
 .home .banner{
     height: 65px;
+    width: 100%;
 }
+
+/* Footer*/
 
 .home footer{
     color: var(--color-grisOscuro);
     text-align: center;
-    background-color: var(--color-grisClaro);
+    background-color: white;
 }
 
 .home footer h4{
